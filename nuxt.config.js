@@ -19,6 +19,15 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://unpkg.com/vue2-animate/dist/vue2-animate.min.css'
+      },
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com'
+      },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Satisfy&display=swap'
       }
     ]
   },
@@ -39,7 +48,8 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts'
   ],
   /*
    ** Nuxt.js modules
