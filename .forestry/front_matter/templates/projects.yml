@@ -1,6 +1,7 @@
 ---
 label: projects
 hide_body: true
+display_field: judul
 fields:
 - name: judul
   type: text
