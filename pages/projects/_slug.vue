@@ -1,21 +1,19 @@
 <template>
-  <div class="projects-wrapper pt-5 sm:pt-12 min-h-screen">
+  <div class="projects-wrapper pt-10 sm:pt-12 min-h-screen">
     <div class="container">
       <NuxtLink to="/" class="text-white text-sm px-5 rounded py-1 bg-green-400"
         >kembali</NuxtLink
       >
-      <div
-        class="font-sans text-lg sm:text-xl text-gray-800 dark:text-gray-200 mt-8 prose-sm sm:prose"
-      >
-        <h3>
+      <div class="font-sans text-lg sm:text-xl  mt-8 prose-sm sm:prose">
+        <h3 class="text-gray-800 dark:text-gray-200">
           {{ doc.judul }}
         </h3>
       </div>
       <div class="font-noto text-sm text-gray-400 mt-2 sm:mt-5">
-        20 november 2020
+        {{ doc.createdAt }}
       </div>
       <div
-        class="projects-heading mt-5 sm:mt-10 w-full flex justify-center rounded-lg overflow-hidden"
+        class="projects-heading mt-5 sm:mt-10 w-full flex justify-center rounded-md smrounded-lg overflow-hidden"
       >
         <img
           class="w-full h-auto object-center object-cover"
@@ -41,7 +39,7 @@
 
 <script>
 export default {
-  transition: 'slideUp',
+  transition: 'fadeUp',
   async asyncData({ $content, params }) {
     let { slug } = params
     console.log(slug)

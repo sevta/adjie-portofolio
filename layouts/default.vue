@@ -2,11 +2,28 @@
   <div
     class="layout-wrapper dark:bg-gray-900 transition duration-300 w-full min-h-screen relative overflow-hidden"
   >
+    <AppBorderLayout />
+    <transition name="fade">
+      <AppLoadingPage v-if="loading" />
+    </transition>
     <AppBorderLayout class="hidden" />
     <nuxt />
     <AppFooter />
   </div>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    loading: true
+  }),
+  mounted() {
+    setTimeout(() => {
+      this.loading = false
+    }, 1000)
+  }
+}
+</script>
 
 <style>
 html {

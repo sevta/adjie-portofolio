@@ -1,9 +1,9 @@
 <template>
   <div class="w-full mt-5 sm:mt-12">
     <div
-      class="swiper-container w-full h-32 sm:h-64 "
+      class="swiper-container w-full h-32 sm:h-auto "
       ref="swiperContainer"
-      v-if="images.length > 3"
+      v-if="images.length > 4"
     >
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
@@ -14,7 +14,7 @@
           :key="i"
         >
           <img
-            class="w-full h-full object-cover object-center"
+            class="w-full h-full object-cover object-top"
             :src="item"
             alt=""
           />
@@ -33,14 +33,14 @@
     </div>
     <div v-else class="grid grid-cols-2 sm:grid-cols-3 gap-6 sm:gap-12">
       <div
-        v-for="item in 3"
-        class="col-span-1 rounded-md h-40 sm:h-64 overflow-hidden"
-        :key="item"
+        v-for="(item, i) in images"
+        class="col-span-1 rounded-md h-auto sm:h-64 overflow-hidden"
+        :key="i"
         :class="[item === 3 ? 'col-span-3 sm:col-span-1' : '']"
       >
         <img
-          class="w-full h-full object-center object-cover"
-          src="http://localhost:3000/uploads/aji-porto-1.webp"
+          class="w-full h-full object-top object-cover"
+          :src="images"
           alt=""
         />
       </div>
@@ -77,8 +77,8 @@ export default {
         spaceBetween: 18,
         breakpoints: {
           640: {
-            slidesPerView: 3,
-            spaceBetween: 30
+            slidesPerView: 4,
+            spaceBetween: 60
           }
         },
 

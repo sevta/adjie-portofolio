@@ -23,6 +23,10 @@ module.exports = {
       }
     }
   },
-  variants: {},
+  variants: {
+    extend: {
+      transform: ['group-hover']
+    }
+  },
   plugins: [require('@tailwindcss/typography')]
 }

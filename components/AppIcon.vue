@@ -1,10 +1,6 @@
 <template>
-  <a
-    :href="href"
-    target="_blank"
-    class="w-6 h-6 cursor-pointer text-gray-600 dark:text-gray-300"
-  >
-    <v-icon :name="name"></v-icon>
+  <a :href="href" target="_blank" class="w-6 h-6 cursor-pointer ">
+    <v-icon :name="name" class="text-gray-600 dark:text-gray-300"></v-icon>
   </a>
 </template>
 
