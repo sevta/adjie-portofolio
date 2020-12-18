@@ -1,7 +1,7 @@
 <template>
   <div class="cursor-pointer" @click="toggleDarkMode">
     <svg
-      v-if="!darkMode"
+      v-if="darkMode"
       class="w-6 h-6 text-white"
       fill="none"
       stroke="currentColor"
@@ -42,13 +42,7 @@ export default {
     ...mapState(['darkMode'])
   },
   watch: {
-    darkMode(dark) {
-      if (!dark) {
-        document.querySelector('html').classList.add('dark')
-      } else {
-        document.querySelector('html').classList.remove('dark')
-      }
-    }
+    darkMode(dark) {}
   },
   methods: {
     ...mapMutations(['toggleDarkMode'])

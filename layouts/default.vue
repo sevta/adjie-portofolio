@@ -21,6 +21,12 @@ export default {
     setTimeout(() => {
       this.loading = false
     }, 1000)
+
+    if (this.$store.state.darkMode) {
+      document.querySelector('html').classList.add('dark')
+    } else {
+      document.querySelector('html').classList.remove('dark')
+    }
   }
 }
 </script>
