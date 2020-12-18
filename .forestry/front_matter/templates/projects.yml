@@ -35,4 +35,5 @@ fields:
       format: markdown
   label: deskripsi
 pages:
+- content/projects/Haribesar.md
 - content/projects/projects-1.md
