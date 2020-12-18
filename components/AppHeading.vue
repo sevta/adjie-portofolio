@@ -10,22 +10,22 @@
       />
     </div>
     <div
-      class="flex flex-col items-center justify-center space-x-4 sm:space-y-2 prose"
+      class="flex flex-col items-center mt-7 sm:mt-0 justify-center space-x-4 sm:space-y-2 prose"
     >
       <div
-        class="font-satisfy text-2xl sm:text-4xl text-center text-gray-800 dark:text-gray-200"
+        class="font-satisfy text-3xl sm:text-4xl text-center text-gray-800 dark:text-gray-200"
       >
         Aji Surochman
       </div>
       <div
-        class="text-center text-xs sm:text-sm text-gray-400 dark:text-gray-300 leading-relaxed sm:px-60"
+        class="text-center text-sm sm:text-sm text-gray-400 dark:text-gray-300 leading-relaxed sm:px-60"
       >
         <p class="">
           Creative Director at Udin Pusip. Jakarta, Indonesia, Jalan jalan
           adalah hobiku.
         </p>
       </div>
-      <div class="flex space-x-10">
+      <div class="flex space-x-10 mt-4 sm:mt-0">
         <AppBtnDarkMode />
         <AppIcon name="instagram" href="#" />
         <AppIcon name="youtube" href="#" />
