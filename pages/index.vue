@@ -9,7 +9,8 @@
       <AppGalleryItem
         v-for="(item, index) in doc"
         :key="index"
-        img="item.cover"
+        :img="item.cover"
+        :link="'projects/' + item.slug"
       />
     </AppGallery>
   </div>
