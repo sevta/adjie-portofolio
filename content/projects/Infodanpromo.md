@@ -1,0 +1,21 @@
+---
+judul: Koleks Design Informasi dan Promosi
+tanggal: 2020-12-18T17:00:00Z
+cover: "/uploads/sudinpusipju_20201219_33.png"
+gambar:
+- "/uploads/sudinpusipju_20201219_28.png"
+- "/uploads/sudinpusipju_20201219_36.png"
+- "/uploads/124310269_280882136582341_1520315066619000454_n.jpg"
+- "/uploads/118046297_3181797411857955_1392260858416559458_n.jpg"
+- "/uploads/sudinpusipju_20201219_32-1.png"
+- "/uploads/120139742_1991697237633387_5485650808802073881_n-1.jpg"
+- "/uploads/121296712_116782390194191_2037639839031435974_n-1.jpg"
+- "/uploads/121470556_361549284897428_5714415573044146338_n.jpg"
+- "/uploads/121288694_1069179140206059_4327175313269428254_n.jpg"
+- "/uploads/121572443_563474847760651_5295431243891062332_n.jpg"
+- "/uploads/121270937_397217924778580_4402448160237355261_n.jpg"
+- "/uploads/121217410_397391964770425_1612381437121946798_n.jpg"
+deskripsi: Sebagian design informasi dan promosi di Suku Dinas Perpustakaan dan Kearsipan
+  Kota Admnistrasi Jakarta Utara
+
+---
