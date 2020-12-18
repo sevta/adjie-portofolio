@@ -1,5 +1,5 @@
 <template>
-  <div class="projects-wrapper pt-5 sm:pt-12">
+  <div class="projects-wrapper pt-5 sm:pt-12 min-h-screen">
     <div class="container">
       <NuxtLink to="/" class="text-pink-500">back</NuxtLink>
 
