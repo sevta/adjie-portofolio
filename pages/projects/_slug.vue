@@ -4,7 +4,7 @@
       <NuxtLink to="/" class="text-pink-500">back</NuxtLink>
 
       <div class="projects-heading mt-5 sm:mt-10 w-full flex justify-center">
-        <img
+        <NuxtImage
           class="w-full h-auto object-center object-cover"
           src="https://cdn.dribbble.com/users/1615584/screenshots/14782285/media/9508181b0467e94066b9300602aef185.jpg"
           alt=""

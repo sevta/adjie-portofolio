@@ -13,14 +13,14 @@
       <div
         class="font-satisfy text-4xl text-center text-gray-800 dark:text-gray-200"
       >
-        Tony Headrick
+        Aji Surochman
       </div>
       <div
         class="text-center text-sm text-gray-400 dark:text-gray-300 leading-relaxed sm:px-60"
       >
         <p>
-          Creative Director at Digital Wolf. Homegrown in Fort Wayne, Indiana.
-          Watch me rock at metalheadrick.ytmnd.com.
+          Creative Director at Udin Pusip. Jakarta, Indonesia, Jalan jalan
+          adalah hobiku.
         </p>
       </div>
       <div class="flex space-x-10">

@@ -6,13 +6,23 @@
     </div>
 
     <AppGallery>
-      <AppGalleryItem v-for="item in 10" :key="item" />
+      <AppGalleryItem v-for="item in doc" :key="item" img="item.cover" />
     </AppGallery>
   </div>
 </template>
 
 <script>
 export default {
-  transition: 'slideDown'
+  transition: 'slideDown',
+  async asyncData({ $content }) {
+    const doc = await $content('projects').fetch()
+    console.log(doc)
+    return {
+      doc
+    }
+  },
+  mounted() {
+    console.log(this.doc)
+  }
 }
 </script>
