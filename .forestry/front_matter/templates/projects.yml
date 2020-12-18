@@ -7,10 +7,8 @@ fields:
   config:
     required: false
   label: judul
-  description: judul
 - name: tanggal
   type: datetime
-  description: tanggal
   config:
     required: false
     date_format: 
@@ -22,12 +20,10 @@ fields:
   config:
     maxSize: 64
   label: cover
-  description: cover depan
 - name: gambar
   type: image_gallery
   config: {}
   label: gambar
-  description: gambar gambar project
 - name: deskripsi
   type: textarea
   default: ''
@@ -37,4 +33,3 @@ fields:
     schema:
       format: markdown
   label: deskripsi
-  description: deskripsi project
