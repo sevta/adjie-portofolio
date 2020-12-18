@@ -1,6 +1,6 @@
 <template>
   <div
-    class="heading container pt-7 flex flex-col items-center justify-center font-noto"
+    class="heading container pt-20 sm:pt-7 flex flex-col items-center justify-center font-noto"
   >
     <div class="avatar rounded-full overflow-hidden mb-4 sm:mb-7">
       <img

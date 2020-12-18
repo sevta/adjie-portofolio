@@ -1,9 +1,13 @@
 <template>
   <div class="projects-wrapper pt-10 sm:pt-12 min-h-screen">
     <div class="container">
-      <NuxtLink to="/" class="text-white text-sm px-5 rounded py-1 bg-green-400"
-        >kembali</NuxtLink
+      <NuxtLink
+        to="/"
+        class=" flex justify-start items-center text-base dark:text-white text-green-400 rounded py-1"
       >
+        <v-icon name="arrow-left" class="w-5 h-5"></v-icon>
+        <div class="-mt-1 ml-2 font-semibold">back</div>
+      </NuxtLink>
       <div class="font-sans text-lg sm:text-xl  mt-8 prose-sm sm:prose">
         <h3 class="text-gray-800 dark:text-gray-200">
           {{ doc.judul }}

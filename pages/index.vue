@@ -2,7 +2,7 @@
   <div class="home-wrapper min-h-screen">
     <AppHeading />
 
-    <div class="container px-28 my-7 sm:my-12">
+    <div class="container px-28 mt-14 mb-16 sm:my-12">
       <div class="w-full h-px bg-gray-500 opacity-20"></div>
     </div>
 
