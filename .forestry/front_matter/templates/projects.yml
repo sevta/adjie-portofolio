@@ -33,3 +33,5 @@ fields:
     schema:
       format: markdown
   label: deskripsi
+pages:
+- content/projects/projects-1.md
