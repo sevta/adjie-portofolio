@@ -13,7 +13,7 @@ module.exports = {
       satisfy: 'Satisfy'
     },
     container: {
-      padding: '1.2rem',
+      padding: '1rem',
       center: true,
       screens: {
         sm: '100%',

@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="container">
-      <AppSlider :images="doc.gambar" />
+      <AppSlider :images="doc.gambar" @onImgClick="onImgClick" />
     </div>
     <div
       class="projects-content px-5 sm:px-0 mt-5 sm:mt-10 mx-auto prose prose-sm sm:prose-sm lg:prose-lg font-noto text-gray-600 dark:text-gray-300"
@@ -42,6 +42,7 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
 export default {
   transition: 'fadeUp',
   async asyncData({ $content, params }) {
@@ -54,8 +55,13 @@ export default {
       doc
     }
   },
-  mounted() {
-    console.log(this.doc, new Date())
+  mounted() {},
+  methods: {
+    ...mapMutations(['setPopupImg']),
+    onImgClick(item) {
+      this.$modal.show('modal-img')
+      this.setPopupImg(item)
+    }
   }
 }
 </script>

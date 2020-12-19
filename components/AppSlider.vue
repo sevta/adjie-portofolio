@@ -12,6 +12,7 @@
           class="swiper-slide bg-red-600 overflow-hidden rounded"
           v-for="(item, i) in images"
           :key="i"
+          @click="onImgClick(item)"
         >
           <img
             class="w-full h-full object-cover object-top"
@@ -37,6 +38,7 @@
         class="col-span-1 rounded-md h-auto sm:h-64 overflow-hidden"
         :key="i"
         :class="[item === 3 ? 'col-span-3 sm:col-span-1' : '']"
+        @click="onImgClick(item)"
       >
         <img
           class="w-full h-full object-top object-cover"
@@ -66,7 +68,7 @@ export default {
       this.mySwiper = new Swiper(this.$refs['swiperContainer'], {
         // Optional parameters
 
-        loop: true,
+        loop: false,
         freeMode: true,
         // If we need pagination
         pagination: {
@@ -93,6 +95,10 @@ export default {
           el: '.swiper-scrollbar'
         }
       })
+    },
+
+    onImgClick(item) {
+      this.$emit('onImgClick', item)
     }
   }
 }

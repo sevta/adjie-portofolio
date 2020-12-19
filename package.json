@@ -21,7 +21,8 @@
     "postcss": "^7.0.35",
     "swiper": "^6.4.5",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
-    "vue-icon": "^2.1.2"
+    "vue-icon": "^2.1.2",
+    "vue-js-modal": "^2.0.0-rc.6"
   },
   "devDependencies": {
     "@nuxt/image": "0.0.4",

@@ -1,5 +1,6 @@
 export const state = () => ({
-  darkMode: true
+  darkMode: true,
+  popupImg: ''
 })
 
 export const mutations = {
@@ -11,5 +12,8 @@ export const mutations = {
     } else {
       document.querySelector('html').classList.remove('dark')
     }
+  },
+  setPopupImg(state, n) {
+    state.popupImg = n
   }
 }
