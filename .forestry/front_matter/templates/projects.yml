@@ -35,6 +35,7 @@ fields:
       format: markdown
   label: deskripsi
 pages:
+- content/projects/Banner.md
 - content/projects/Designkegiatan.md
 - content/projects/Fotokegiatan.md
 - content/projects/Galau.md
