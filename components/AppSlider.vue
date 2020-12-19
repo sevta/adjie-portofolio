@@ -9,7 +9,7 @@
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div
-          class="swiper-slide bg-red-600 overflow-hidden rounded"
+          class="swiper-slide bg-red-600 overflow-hidden rounded cursor-pointer"
           v-for="(item, i) in images"
           :key="i"
           @click="onImgClick(item)"
@@ -35,7 +35,7 @@
     <div v-else class="grid grid-cols-2 sm:grid-cols-3 gap-6 sm:gap-12">
       <div
         v-for="(item, i) in images"
-        class="col-span-1 rounded-md h-auto sm:h-64 overflow-hidden"
+        class="col-span-1 rounded-md h-auto sm:h-64 overflow-hidden cursor-pointer"
         :key="i"
         :class="[item === 3 ? 'col-span-3 sm:col-span-1' : '']"
         @click="onImgClick(item)"

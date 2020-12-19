@@ -1,6 +1,6 @@
 <template>
   <div
-    class="heading container pt-20 sm:pt-7 flex flex-col items-center justify-center font-noto"
+    class="heading container pt-12 sm:pt-7 flex flex-col items-center sm:items-start  justify-start font-noto"
   >
     <div class="avatar rounded-full overflow-hidden mb-4 sm:mb-7">
       <img
@@ -10,25 +10,46 @@
       />
     </div>
     <div
-      class="flex flex-col items-center mt-7 sm:mt-0 justify-center space-x-4 sm:space-y-2 prose"
+      class="flex flex-col items-center sm:items-start mt-7 sm:mt-0 justify-center sm:justify-start space-y-6 sm:space-y-8  prose"
     >
       <div
-        class="font-satisfy text-3xl sm:text-4xl text-center text-gray-800 dark:text-gray-200"
+        class="font-intro font-bold text-3xl sm:text-4xl text-center sm:text-left text-gray-800 dark:text-gray-200"
       >
         Aji Surochman
       </div>
       <div
-        class="text-center text-sm sm:text-sm text-gray-400 dark:text-gray-300 leading-relaxed sm:px-60"
+        class="text-center sm:text-left text-gray-500 dark:text-gray-300 leading-loose mb-6 sm:mb-6 prose"
       >
         <p class="">
-          Creative Director at Udin Pusip. Jakarta, Indonesia, Jalan jalan
-          adalah hobiku.
+          Hallo nama saya <span class="text-green-400">Aji Surochman</span> ,
+          seorang Desainer Grafis asal DKI Jakarta yang telah belajar desain
+          secara Otodidak selama 5 tahun, saya selalu ingin mempelajari hal –
+          hal baru yang menarik buat saya.
         </p>
+        <p>
+          Saya tertarik dengan dunia grafis karena sanggup mengutarakan pesan
+          atau informasi. Semenjak bekerja di Suku Dinas Perpustakaan dan
+          Kearsipan kota Administrasi Jakarta Utara
+        </p>
+        <p>
+          saya ditugaskan untuk mengelola media sosial dan mengelola website. Di
+          portofolio ini ada bebearapa karya yang pernah saya hasilkan, saya
+          juga hobi mengedit video dan menguploadnya di youtube atau media
+          social Sudin Pusip Jakarta Utara. Selain dunia grafis, ada hal-hal
+          yang menjadi interest bagi saya, yakni film dan karya jurnalistik
+        </p>
+        <h1>😁</h1>
       </div>
-      <div class="flex space-x-10 mt-4 sm:mt-0">
+      <div class="flex space-x-10 mt-10 sm:mt-0 ">
         <AppBtnDarkMode />
-        <AppIcon name="instagram" href="#" />
-        <AppIcon name="youtube" href="#" />
+        <AppIcon
+          name="instagram"
+          href="https://www.instagram.com/sudinpusipju/"
+        />
+        <AppIcon
+          name="youtube"
+          href="https://www.youtube.com/channel/UCHPwdSWBzE0w59Q3AJtTd7A"
+        />
       </div>
     </div>
   </div>

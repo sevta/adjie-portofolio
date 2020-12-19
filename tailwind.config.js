@@ -10,7 +10,8 @@ module.exports = {
   theme: {
     fontFamily: {
       noto: 'Noto Sans JP, sans-serif',
-      satisfy: 'Satisfy'
+      satisfy: 'Satisfy',
+      inter: 'Inter, sans-serif'
     },
     container: {
       padding: '1rem',
